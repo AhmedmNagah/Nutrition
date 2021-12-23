@@ -1,0 +1,24 @@
+.analyzer-coontainer{
+    font-family: "Montserrat SemiBold",Verdana,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+header {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    flex:1 0 100px;
+}
+button{
+    display: block;
+    color: white;
+    background-color: blue;
+    margin-top: 10px;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+
+}
