@@ -1,3 +1,4 @@
+import { DataService } from 'src/app/data.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from "@angular/common/http";
@@ -26,11 +27,8 @@ import { RouterModule } from '@angular/router';
     ReactiveFormsModule,
 
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-function routes(routes: any): any[] | import("@angular/core").Type<any> {
-  throw new Error('Function not implemented.');
-}
 

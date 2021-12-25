@@ -1,7 +1,6 @@
 import { DataService } from 'src/app/data.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {FirebaseListObservable} from'angularFire2'
 
 @Component({
   selector: 'app-responce',
